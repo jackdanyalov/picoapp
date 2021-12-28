@@ -7,15 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		587B5B6DCB082DEFE4713424 /* Pods_PicoApp_PicoAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1427B1C500EC509E5915448D /* Pods_PicoApp_PicoAppUITests.framework */; };
+		B8EBD401FB25FFC76CDD122F /* Pods_PicoAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3080D7D58681A99D20C7475A /* Pods_PicoAppTests.framework */; };
+		C63ED5EE2779410A0090678C /* MainFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = C63ED5ED2779410A0090678C /* MainFactory.swift */; };
+		C63ED5F0277A20ED0090678C /* LocalStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C63ED5EF277A20ED0090678C /* LocalStorage.swift */; };
+		C63ED5F2277A553C0090678C /* APIClientMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = C63ED5F1277A553C0090678C /* APIClientMock.swift */; };
+		C63ED5F5277A5B6B0090678C /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C63ED5F4277A5B6B0090678C /* Extensions.swift */; };
+		C663F15D277A710A0076E957 /* MainViewModelTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = C663F15C277A710A0076E957 /* MainViewModelTest.swift */; };
+		C663F15F277A71EE0076E957 /* LocalStorageMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = C663F15E277A71EE0076E957 /* LocalStorageMock.swift */; };
+		C663F161277A73F10076E957 /* Mocks.swift in Sources */ = {isa = PBXBuildFile; fileRef = C663F160277A73F10076E957 /* Mocks.swift */; };
+		C663F163277A78670076E957 /* LocalStorageTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = C663F162277A78670076E957 /* LocalStorageTest.swift */; };
+		C663F165277B9DE80076E957 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = C663F164277B9DE80076E957 /* Logger.swift */; };
 		C6EFF0332777992600C20B7F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6EFF0322777992600C20B7F /* AppDelegate.swift */; };
 		C6EFF0352777992600C20B7F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6EFF0342777992600C20B7F /* SceneDelegate.swift */; };
-		C6EFF0372777992600C20B7F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6EFF0362777992600C20B7F /* ViewController.swift */; };
-		C6EFF03A2777992600C20B7F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6EFF0382777992600C20B7F /* Main.storyboard */; };
+		C6EFF0372777992600C20B7F /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6EFF0362777992600C20B7F /* MainViewController.swift */; };
 		C6EFF03C2777992900C20B7F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6EFF03B2777992900C20B7F /* Assets.xcassets */; };
 		C6EFF03F2777992900C20B7F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6EFF03D2777992900C20B7F /* LaunchScreen.storyboard */; };
-		C6EFF04A2777992900C20B7F /* PicoAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6EFF0492777992900C20B7F /* PicoAppTests.swift */; };
+		C6EFF04A2777992900C20B7F /* DataFetcherTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6EFF0492777992900C20B7F /* DataFetcherTest.swift */; };
 		C6EFF0542777992900C20B7F /* PicoAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6EFF0532777992900C20B7F /* PicoAppUITests.swift */; };
 		C6EFF0562777992900C20B7F /* PicoAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6EFF0552777992900C20B7F /* PicoAppUITestsLaunchTests.swift */; };
+		C6EFF06727779BCF00C20B7F /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6EFF06627779BCF00C20B7F /* APIClient.swift */; };
+		C6EFF06A27779C6600C20B7F /* FlickrImageRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6EFF06927779C6600C20B7F /* FlickrImageRequest.swift */; };
+		C6EFF06C27779D6000C20B7F /* RequestProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6EFF06B27779D6000C20B7F /* RequestProtocol.swift */; };
+		C6EFF06E27779E9400C20B7F /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6EFF06D27779E9400C20B7F /* Helpers.swift */; };
+		C6EFF0702777B36800C20B7F /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6EFF06F2777B36800C20B7F /* Constants.swift */; };
+		C6EFF0732777BB5900C20B7F /* DataFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6EFF0722777BB5900C20B7F /* DataFetcher.swift */; };
+		C6EFF0B42778F0C200C20B7F /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6EFF0B32778F0C200C20B7F /* BaseViewController.swift */; };
+		C6EFF0B62778F45700C20B7F /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6EFF0B52778F45700C20B7F /* CollectionViewCell.swift */; };
+		C6EFF0B92778F67800C20B7F /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6EFF0B82778F67800C20B7F /* MainViewModel.swift */; };
+		C6EFF0BB27791C2400C20B7F /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6EFF0BA27791C2400C20B7F /* SearchViewController.swift */; };
+		C6EFF0BD27792B5700C20B7F /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6EFF0BC27792B5700C20B7F /* Extensions.swift */; };
+		E74D1ECA3CF5D6B602859962 /* Pods_PicoApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B7179554C87F08B42A6825F /* Pods_PicoApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,19 +58,47 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1427B1C500EC509E5915448D /* Pods_PicoApp_PicoAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PicoApp_PicoAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B7179554C87F08B42A6825F /* Pods_PicoApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PicoApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3080D7D58681A99D20C7475A /* Pods_PicoAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PicoAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3736C2433BE7E7A34C723CC4 /* Pods-PicoAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PicoAppTests.release.xcconfig"; path = "Target Support Files/Pods-PicoAppTests/Pods-PicoAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		562160F6E596260E7E21E595 /* Pods-PicoApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PicoApp.debug.xcconfig"; path = "Target Support Files/Pods-PicoApp/Pods-PicoApp.debug.xcconfig"; sourceTree = "<group>"; };
+		8112D7E51AF7F09D1DBEF2D9 /* Pods-PicoApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PicoApp.release.xcconfig"; path = "Target Support Files/Pods-PicoApp/Pods-PicoApp.release.xcconfig"; sourceTree = "<group>"; };
+		C4C8397B23B4AD0256DAE96A /* Pods-PicoApp-PicoAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PicoApp-PicoAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-PicoApp-PicoAppUITests/Pods-PicoApp-PicoAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C63ED5ED2779410A0090678C /* MainFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainFactory.swift; sourceTree = "<group>"; };
+		C63ED5EF277A20ED0090678C /* LocalStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalStorage.swift; sourceTree = "<group>"; };
+		C63ED5F1277A553C0090678C /* APIClientMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClientMock.swift; sourceTree = "<group>"; };
+		C63ED5F4277A5B6B0090678C /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		C663F15C277A710A0076E957 /* MainViewModelTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModelTest.swift; sourceTree = "<group>"; };
+		C663F15E277A71EE0076E957 /* LocalStorageMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalStorageMock.swift; sourceTree = "<group>"; };
+		C663F160277A73F10076E957 /* Mocks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mocks.swift; sourceTree = "<group>"; };
+		C663F162277A78670076E957 /* LocalStorageTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalStorageTest.swift; sourceTree = "<group>"; };
+		C663F164277B9DE80076E957 /* Logger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
 		C6EFF02F2777992600C20B7F /* PicoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PicoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6EFF0322777992600C20B7F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C6EFF0342777992600C20B7F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C6EFF0362777992600C20B7F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		C6EFF0392777992600C20B7F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C6EFF0362777992600C20B7F /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		C6EFF03B2777992900C20B7F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C6EFF03E2777992900C20B7F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C6EFF0402777992900C20B7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C6EFF0452777992900C20B7F /* PicoAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PicoAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		C6EFF0492777992900C20B7F /* PicoAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PicoAppTests.swift; sourceTree = "<group>"; };
+		C6EFF0492777992900C20B7F /* DataFetcherTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataFetcherTest.swift; sourceTree = "<group>"; };
 		C6EFF04F2777992900C20B7F /* PicoAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PicoAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6EFF0532777992900C20B7F /* PicoAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PicoAppUITests.swift; sourceTree = "<group>"; };
 		C6EFF0552777992900C20B7F /* PicoAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PicoAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C6EFF06627779BCF00C20B7F /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		C6EFF06927779C6600C20B7F /* FlickrImageRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlickrImageRequest.swift; sourceTree = "<group>"; };
+		C6EFF06B27779D6000C20B7F /* RequestProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestProtocol.swift; sourceTree = "<group>"; };
+		C6EFF06D27779E9400C20B7F /* Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
+		C6EFF06F2777B36800C20B7F /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		C6EFF0722777BB5900C20B7F /* DataFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataFetcher.swift; sourceTree = "<group>"; };
+		C6EFF0B32778F0C200C20B7F /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		C6EFF0B52778F45700C20B7F /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		C6EFF0B82778F67800C20B7F /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		C6EFF0BA27791C2400C20B7F /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		C6EFF0BC27792B5700C20B7F /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		E136DDDFD1134520C178513A /* Pods-PicoApp-PicoAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PicoApp-PicoAppUITests.release.xcconfig"; path = "Target Support Files/Pods-PicoApp-PicoAppUITests/Pods-PicoApp-PicoAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F3F57D6B500470B978661217 /* Pods-PicoAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PicoAppTests.debug.xcconfig"; path = "Target Support Files/Pods-PicoAppTests/Pods-PicoAppTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +106,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E74D1ECA3CF5D6B602859962 /* Pods_PicoApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +114,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B8EBD401FB25FFC76CDD122F /* Pods_PicoAppTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +122,64 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				587B5B6DCB082DEFE4713424 /* Pods_PicoApp_PicoAppUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7AC0483A6CE67C812E7D54FE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2B7179554C87F08B42A6825F /* Pods_PicoApp.framework */,
+				1427B1C500EC509E5915448D /* Pods_PicoApp_PicoAppUITests.framework */,
+				3080D7D58681A99D20C7475A /* Pods_PicoAppTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9D535D2DF0FCF142DA8A2094 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				562160F6E596260E7E21E595 /* Pods-PicoApp.debug.xcconfig */,
+				8112D7E51AF7F09D1DBEF2D9 /* Pods-PicoApp.release.xcconfig */,
+				C4C8397B23B4AD0256DAE96A /* Pods-PicoApp-PicoAppUITests.debug.xcconfig */,
+				E136DDDFD1134520C178513A /* Pods-PicoApp-PicoAppUITests.release.xcconfig */,
+				F3F57D6B500470B978661217 /* Pods-PicoAppTests.debug.xcconfig */,
+				3736C2433BE7E7A34C723CC4 /* Pods-PicoAppTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C63ED5F3277A55440090678C /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				C63ED5F1277A553C0090678C /* APIClientMock.swift */,
+				C63ED5F4277A5B6B0090678C /* Extensions.swift */,
+				C663F15E277A71EE0076E957 /* LocalStorageMock.swift */,
+				C663F160277A73F10076E957 /* Mocks.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		C63ED5F6277A5C9A0090678C /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				C6EFF0492777992900C20B7F /* DataFetcherTest.swift */,
+				C663F162277A78670076E957 /* LocalStorageTest.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		C663F15B277A70F70076E957 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				C663F15C277A710A0076E957 /* MainViewModelTest.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
 		C6EFF0262777992600C20B7F = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +187,8 @@
 				C6EFF0482777992900C20B7F /* PicoAppTests */,
 				C6EFF0522777992900C20B7F /* PicoAppUITests */,
 				C6EFF0302777992600C20B7F /* Products */,
+				9D535D2DF0FCF142DA8A2094 /* Pods */,
+				7AC0483A6CE67C812E7D54FE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,13 +205,8 @@
 		C6EFF0312777992600C20B7F /* PicoApp */ = {
 			isa = PBXGroup;
 			children = (
-				C6EFF0322777992600C20B7F /* AppDelegate.swift */,
-				C6EFF0342777992600C20B7F /* SceneDelegate.swift */,
-				C6EFF0362777992600C20B7F /* ViewController.swift */,
-				C6EFF0382777992600C20B7F /* Main.storyboard */,
-				C6EFF03B2777992900C20B7F /* Assets.xcassets */,
-				C6EFF03D2777992900C20B7F /* LaunchScreen.storyboard */,
-				C6EFF0402777992900C20B7F /* Info.plist */,
+				C6EFF06227779B5400C20B7F /* source */,
+				C6EFF06327779B6000C20B7F /* resources */,
 			);
 			path = PicoApp;
 			sourceTree = "<group>";
@@ -113,7 +214,9 @@
 		C6EFF0482777992900C20B7F /* PicoAppTests */ = {
 			isa = PBXGroup;
 			children = (
-				C6EFF0492777992900C20B7F /* PicoAppTests.swift */,
+				C63ED5F3277A55440090678C /* Utilities */,
+				C63ED5F6277A5C9A0090678C /* Services */,
+				C663F15B277A70F70076E957 /* ViewModels */,
 			);
 			path = PicoAppTests;
 			sourceTree = "<group>";
@@ -127,6 +230,88 @@
 			path = PicoAppUITests;
 			sourceTree = "<group>";
 		};
+		C6EFF06227779B5400C20B7F /* source */ = {
+			isa = PBXGroup;
+			children = (
+				C6EFF0712777B36D00C20B7F /* Utilities */,
+				C6EFF06427779B9700C20B7F /* System */,
+				C6EFF06527779BA300C20B7F /* Services */,
+				C6EFF06827779C1700C20B7F /* Requests */,
+				C6EFF0B72778F65F00C20B7F /* ViewModels */,
+				C6EFF0762778E1AC00C20B7F /* ViewControllers */,
+			);
+			path = source;
+			sourceTree = "<group>";
+		};
+		C6EFF06327779B6000C20B7F /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				C6EFF0402777992900C20B7F /* Info.plist */,
+				C6EFF03B2777992900C20B7F /* Assets.xcassets */,
+				C6EFF03D2777992900C20B7F /* LaunchScreen.storyboard */,
+			);
+			path = resources;
+			sourceTree = "<group>";
+		};
+		C6EFF06427779B9700C20B7F /* System */ = {
+			isa = PBXGroup;
+			children = (
+				C6EFF0322777992600C20B7F /* AppDelegate.swift */,
+				C6EFF0342777992600C20B7F /* SceneDelegate.swift */,
+			);
+			path = System;
+			sourceTree = "<group>";
+		};
+		C6EFF06527779BA300C20B7F /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				C6EFF06627779BCF00C20B7F /* APIClient.swift */,
+				C6EFF0722777BB5900C20B7F /* DataFetcher.swift */,
+				C63ED5EF277A20ED0090678C /* LocalStorage.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		C6EFF06827779C1700C20B7F /* Requests */ = {
+			isa = PBXGroup;
+			children = (
+				C6EFF06B27779D6000C20B7F /* RequestProtocol.swift */,
+				C6EFF06927779C6600C20B7F /* FlickrImageRequest.swift */,
+				C6EFF06D27779E9400C20B7F /* Helpers.swift */,
+			);
+			path = Requests;
+			sourceTree = "<group>";
+		};
+		C6EFF0712777B36D00C20B7F /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				C6EFF06F2777B36800C20B7F /* Constants.swift */,
+				C6EFF0BC27792B5700C20B7F /* Extensions.swift */,
+				C663F164277B9DE80076E957 /* Logger.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		C6EFF0762778E1AC00C20B7F /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				C6EFF0B32778F0C200C20B7F /* BaseViewController.swift */,
+				C6EFF0362777992600C20B7F /* MainViewController.swift */,
+				C6EFF0BA27791C2400C20B7F /* SearchViewController.swift */,
+				C6EFF0B52778F45700C20B7F /* CollectionViewCell.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		C6EFF0B72778F65F00C20B7F /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				C63ED5ED2779410A0090678C /* MainFactory.swift */,
+				C6EFF0B82778F67800C20B7F /* MainViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +319,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C6EFF0592777992900C20B7F /* Build configuration list for PBXNativeTarget "PicoApp" */;
 			buildPhases = (
+				7A3885424B3D9674B221009E /* [CP] Check Pods Manifest.lock */,
 				C6EFF02B2777992600C20B7F /* Sources */,
 				C6EFF02C2777992600C20B7F /* Frameworks */,
 				C6EFF02D2777992600C20B7F /* Resources */,
+				06DA19637E22A5F986AB3ACE /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -151,6 +338,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C6EFF05C2777992900C20B7F /* Build configuration list for PBXNativeTarget "PicoAppTests" */;
 			buildPhases = (
+				16CECC383284CCC1D676EAB5 /* [CP] Check Pods Manifest.lock */,
 				C6EFF0412777992900C20B7F /* Sources */,
 				C6EFF0422777992900C20B7F /* Frameworks */,
 				C6EFF0432777992900C20B7F /* Resources */,
@@ -169,9 +357,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C6EFF05F2777992900C20B7F /* Build configuration list for PBXNativeTarget "PicoAppUITests" */;
 			buildPhases = (
+				4DB54BA5C2174CA0F139BC54 /* [CP] Check Pods Manifest.lock */,
 				C6EFF04B2777992900C20B7F /* Sources */,
 				C6EFF04C2777992900C20B7F /* Frameworks */,
 				C6EFF04D2777992900C20B7F /* Resources */,
+				3C0D86E8AD9DCA2B2AE780EF /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -233,7 +423,6 @@
 			files = (
 				C6EFF03F2777992900C20B7F /* LaunchScreen.storyboard in Resources */,
 				C6EFF03C2777992900C20B7F /* Assets.xcassets in Resources */,
-				C6EFF03A2777992600C20B7F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,14 +442,131 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		06DA19637E22A5F986AB3ACE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PicoApp/Pods-PicoApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PicoApp/Pods-PicoApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PicoApp/Pods-PicoApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		16CECC383284CCC1D676EAB5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PicoAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3C0D86E8AD9DCA2B2AE780EF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PicoApp-PicoAppUITests/Pods-PicoApp-PicoAppUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PicoApp-PicoAppUITests/Pods-PicoApp-PicoAppUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PicoApp-PicoAppUITests/Pods-PicoApp-PicoAppUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4DB54BA5C2174CA0F139BC54 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PicoApp-PicoAppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7A3885424B3D9674B221009E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PicoApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C6EFF02B2777992600C20B7F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C6EFF0372777992600C20B7F /* ViewController.swift in Sources */,
+				C6EFF0372777992600C20B7F /* MainViewController.swift in Sources */,
+				C6EFF06E27779E9400C20B7F /* Helpers.swift in Sources */,
 				C6EFF0332777992600C20B7F /* AppDelegate.swift in Sources */,
+				C6EFF06727779BCF00C20B7F /* APIClient.swift in Sources */,
+				C6EFF06C27779D6000C20B7F /* RequestProtocol.swift in Sources */,
+				C6EFF0B42778F0C200C20B7F /* BaseViewController.swift in Sources */,
 				C6EFF0352777992600C20B7F /* SceneDelegate.swift in Sources */,
+				C6EFF0732777BB5900C20B7F /* DataFetcher.swift in Sources */,
+				C663F165277B9DE80076E957 /* Logger.swift in Sources */,
+				C6EFF0BB27791C2400C20B7F /* SearchViewController.swift in Sources */,
+				C6EFF06A27779C6600C20B7F /* FlickrImageRequest.swift in Sources */,
+				C6EFF0702777B36800C20B7F /* Constants.swift in Sources */,
+				C6EFF0B62778F45700C20B7F /* CollectionViewCell.swift in Sources */,
+				C6EFF0B92778F67800C20B7F /* MainViewModel.swift in Sources */,
+				C63ED5F0277A20ED0090678C /* LocalStorage.swift in Sources */,
+				C63ED5EE2779410A0090678C /* MainFactory.swift in Sources */,
+				C6EFF0BD27792B5700C20B7F /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,7 +574,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C6EFF04A2777992900C20B7F /* PicoAppTests.swift in Sources */,
+				C6EFF04A2777992900C20B7F /* DataFetcherTest.swift in Sources */,
+				C663F15F277A71EE0076E957 /* LocalStorageMock.swift in Sources */,
+				C63ED5F5277A5B6B0090678C /* Extensions.swift in Sources */,
+				C663F163277A78670076E957 /* LocalStorageTest.swift in Sources */,
+				C63ED5F2277A553C0090678C /* APIClientMock.swift in Sources */,
+				C663F15D277A710A0076E957 /* MainViewModelTest.swift in Sources */,
+				C663F161277A73F10076E957 /* Mocks.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,14 +609,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		C6EFF0382777992600C20B7F /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C6EFF0392777992600C20B7F /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		C6EFF03D2777992900C20B7F /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -434,60 +738,67 @@
 		};
 		C6EFF05A2777992900C20B7F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 562160F6E596260E7E21E595 /* Pods-PicoApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8JR7Z5Y3WF;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = PicoApp/Info.plist;
+				INFOPLIST_FILE = PicoApp/resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.mobiquity.PicoApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mobiquitytest.PicoApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		C6EFF05B2777992900C20B7F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8112D7E51AF7F09D1DBEF2D9 /* Pods-PicoApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8JR7Z5Y3WF;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = PicoApp/Info.plist;
+				INFOPLIST_FILE = PicoApp/resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.mobiquity.PicoApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mobiquitytest.PicoApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 		C6EFF05D2777992900C20B7F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F3F57D6B500470B978661217 /* Pods-PicoAppTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -512,6 +823,7 @@
 		};
 		C6EFF05E2777992900C20B7F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3736C2433BE7E7A34C723CC4 /* Pods-PicoAppTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -536,6 +848,7 @@
 		};
 		C6EFF0602777992900C20B7F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C4C8397B23B4AD0256DAE96A /* Pods-PicoApp-PicoAppUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -558,6 +871,7 @@
 		};
 		C6EFF0612777992900C20B7F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E136DDDFD1134520C178513A /* Pods-PicoApp-PicoAppUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

@@ -1,0 +1,6 @@
+framework module Pods_PicoApp_PicoAppUITests {
+  umbrella header "Pods-PicoApp-PicoAppUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
