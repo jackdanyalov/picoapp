@@ -2,7 +2,6 @@ import Foundation
 
 /// Request protocol for building different requests for APIClient
 public protocol RequestProtocol: AnyObject {
-    typealias JSONDictionary<T, V> = Dictionary<T, V> where T: Hashable
     typealias RequestResult = Result<Response, APIError>
     associatedtype Response
 
